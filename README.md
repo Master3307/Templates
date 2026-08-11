@@ -2,12 +2,16 @@
 
 <p align="center">Centered Description</p>
 
+<p align="center">
+  <a href="https://example.com"><img src="Images/GitHubCardTemplate.png" alt="Template Image" style="height: 169px;"></a>
+</p>
+
 <h2>📜・Example Header</h2>
 
 - Example Bullet
-- other
+- Other
 
-<h2>📜 Alternative Header</h2>
+<h2>📦・Other Header</h2>
 
-- Example Bullet
-- other
+- Alternative Bullet
+- Another Bullet
