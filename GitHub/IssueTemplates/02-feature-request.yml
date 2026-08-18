@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement or new feature for HomeSite.
+title: "[Feature]: "
+labels:
+  - enhancement
+assignees:
+  - Master3307
+projects:
+  - Master3307/2
+
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Site
+        - Backend
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like to see?
+      description: Tell us your idea, the problem it solves, or how it should work.
+      placeholder: It would be useful if...
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? (optional)
+      description: Add screenshots, examples, links, or implementation ideas.
+    validations:
+      required: false

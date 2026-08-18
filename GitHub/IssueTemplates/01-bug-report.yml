@@ -1,0 +1,50 @@
+name: Bug report
+description: Tell us about something broken or behaving unexpectedly.
+title: "[Bug]: "
+labels:
+  - bug
+assignees:
+  - Master3307
+projects:
+  - Master3307/2
+
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Site
+        - Backend
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+      placeholder: I expected ... but instead ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: Tell us the steps, if you know them.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See the problem
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? (optional)
+      description: Add browser/OS details, logs, screenshots, recordings, links, or other context.
+    validations:
+      required: false
